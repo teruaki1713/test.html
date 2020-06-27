@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>英単語</title>
+	<meta name=”viewport” content=”width=device-width, initial-scale=1”>
+</head>
+<body>
+	<header>
+		<input class="waei header" type="button" value="(和▶︎英)ランダム" id="button1">
+		<input class="waei header" type="button" value="(和▶︎英)順番" id="button2">
+		<!--<input class="waei header" type="button" value="英単語(和▶︎英)">
+		<input class="waei header" type="button" value="英単語(和▶︎英)">-->
+	</header>
+	<main>
+		
+		<a href="https://teruaki1713.github.io/English-words-/" class="pc">PC版へ</a>
+		<div class="select">
+
+			<p class="textp">範囲選択：</p>
+
+			<select id="select">
+	   			 <option value="">和▶英(ランダム)重複なし</option>
+	   			 <option value="">和▶英(順)</option>
+	   			 <option value="">和▶英(ランダム)重複あり</option>
+			</select>
+			
+			<p class="max" id="max"></p>
+
+		</div>
+
+		<div class="box">
+
+			<p class="Qnumber" id="QN">0問目：〜</p>
+			<p class="Wnumber" id="WN">No.〜</p>
+			<p class="Pnumber" id="PN">　　正答率：〜％</p>
+			<form name="form">
+				<input type="text" class="input" id="form" autocomplete="off" onkeypress="hoge(event.keyCode);" /></input>
+				<input class="a1"></input>
+			</form>
+			<div id="text-button" class=button><p id="text">次の問題を表示</p></div>
+			<p　class="check" id="check">採点結果：〜〜〜〜〜〜〜〜〜</p>
+
+		</div>
+	
+			<p>テスト範囲</p>
+			<p>第一回　1~70</p>
+			<p>第二回　７１~１３３</p>
+			<p>第三回　１３４~１８８</p>
+			<p>第四回　１８９~２４８</p>
+			<p>第五回　249~299</p>	
+
+		<div class="use">
+			<p>使用方法</p>
+			<p>①一番上のヘッダーから問題の種類を選択</p>
+			<p>②範囲選択の項目で範囲を指定(例：1~11 ※左側の数値を小さく設定してください)</p>
+			<p>③[問題を表示]ボタンを押す(enterキーでも可)</p>
+			<p>④回答を記入欄に入力</p>
+			<p>⑤採点ボタンを押す(enterキーでも可)</p>
+			<p>⑥　③〜⑤を繰り返す</p>
+			<p>※注意</p>
+			<p>①意味が複数ある単語であっても意味は一つしか登録されていません。</p>
+			<p>②入力されている情報に誤りがある可能性があります。</p>
+		</div>
+
+		
+
+	
+	<script type="text/javascript" charset="utf-8" src="">	</script>	
+
+	</main>
+
+	
+</body>
+</html>
