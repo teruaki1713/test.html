@@ -1,0 +1,308 @@
+/*共通部分---------------------------------------------------------------------*/
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*body全体--------------------------------------------------------------------*/
+body {
+  background: #dddddd;
+}
+
+/*ヘッダー---------------------------------------------------------------------*/
+/*ヘッダー*/
+.nav {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background: #888888;
+  width: 100%;
+  overflow: hidden;
+}
+
+.nav p {
+  float: left;
+  font-size: 20px;
+  font-family: 'Great Vibes', cursive;
+  padding: 5px 5px;
+  color: white;
+  margin-left: 20px;
+}
+
+/*navボタン*/
+.nav_button {
+  justify-content: center;
+  float: right;
+  margin-right: 10px;
+}
+
+#button {
+  font-size: 14px;
+}
+
+.button1_1 {
+  outline: none;
+  border: none;
+  background-color: rgba(136, 136, 136, 1);
+  padding: 7px 10px;
+  color: white;
+}
+
+.button1_2 {
+  display: inline-block;
+  outline: none;
+  border: none;
+  background-color: rgba(136, 136, 136, 1);
+  padding: 7px 10px;
+  color: white;
+}
+
+#button:hover {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+
+/*メイン-----------------------------------------------------------------------*/
+main {
+  background: #f7f7f7;
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*ヘッドワッパ〜*/
+.head_wrapper {
+  margin-top: 35px;
+  padding-top: 80px;
+  text-align: center;
+  background-image: url(sky_background.jpeg);
+  background-size: cover;
+  padding-bottom: 100px;
+}
+
+.head_wrapper h1 {
+  font-family: 'Great Vibes', cursive;
+}
+
+.hwp {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+}
+
+/*説明部分*/
+aside {
+  text-align: center;
+  opacity: 0.5;
+  margin-top: 50px;
+}
+
+#text {
+  margin-top: 20px;
+}
+
+/*掲示板*/
+.info {
+  margin: 20px 10px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info h2{
+  background: #888888;
+  color: white;
+  text-align: center;
+}
+
+.Ktext {
+  background: #b3d0d7;
+  width: 95%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.info li {
+  margin-left: 40px;
+  padding: 20px;
+}
+
+/*設定系-----------------------------------------------------------------------*/
+/*設定共通部分---------------------------------------*/
+.box1 {
+  margin-left: 20px;
+  margin-bottom: 200px;
+  padding-top: 60px;
+  overflow: hidden;
+}
+
+.box1 h2 {
+  margin-left: 10px;
+  display: inline-block;
+  background: #b3d0d7;
+  padding: 20px;
+  width: auto;
+}
+
+.box1 a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background:
+    /*#94bcb7*/
+    #3e687b;
+  width: 200px;
+  height: 200px;
+  /*align-content: flex-start;*/
+  text-align: center;
+  justify-content: space-around;
+}
+
+.box1 a :hover {
+  opacity: 0.6;
+  background: rgba(62, 104, 125, 0.5);
+}
+
+.box1 p {
+  background: #b3d0d7;
+  padding: 10px 0px;
+}
+
+.kyo {
+  background: black;
+  display: inline-block;
+  clear: left;
+  margin-top: 10px;
+}
+
+.sel {
+  justify-content: space-around;
+  overflow: hidden;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 20px;
+}
+
+.select {
+  width: 200px;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 20px;
+}
+
+/*レイアウト用box*/
+#lay {
+  width: 200px;
+  height: 20px;
+  background: black;
+}
+
+span {
+  display: inline-block;
+  margin-top: 80px;
+}
+
+/*問題表示領域-------------------------*/
+.Qarea {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background: #f7f7f7
+    /*#3e687b*/
+  ;
+  padding-top: 200px;
+  padding-bottom: 700px;
+}
+
+.Wnumber {
+  float: left;
+}
+
+.Pnumber {
+  float: right;
+}
+
+.inner {
+  overflow: hidden;
+}
+
+.none {
+  display: none;
+}
+
+.flo {
+  font-size: 20px;
+}
+
+.ch {
+  font-size: 20px;
+}
+
+.input {
+  display: block;
+  width: 99%;
+  font-size: 20px;
+}
+
+#QN {
+  font-size: 30px;
+}
+
+.bar {
+  width: 100%;
+  height: 4px;
+  background: black;
+  margin: 40px 0;
+  opacity: 0.5;
+}
+
+/*フッター---------------------------------------------------------------------*/
+footer {
+  background: #888888;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 30px 0px;
+}
+
+/*display------------------------------------------------------------------------*/
+#r1 {
+  padding-bottom: 50px;
+}
+
+#r2 {
+  display: none;
+  padding-bottom: 50px;
+}
+
+#r3 {
+  display: none;
+  padding-bottom: 50px;
+}
+
+#r4 {
+  display: none;
+  padding-bottom: 50px;
+}
+
+#r5 {
+  display: none;
+  padding-bottom: 50px;
+}
+
+#r6 {
+  display: none;
+  padding-bottom: 50px;
+}
+
+#r7 {
+  display: none;
+  padding-bottom: 50px;
+}
